@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form method="get" action="{{ url_for('main.index') }}">
+    <input type="text" name="q" placeholder="Buscar..." value="{{ query or '' }}">
+    <button type="submit">Buscar</button>
+    <a href="{{ url_for('main.add') }}">Agregar nuevo</a>
+</form>
+
+{% if comandos %}
+<table>
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Descripción</th>
+            <th>Sistema Operativo</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for cmd in comandos %}
+        <tr>
+            <td>{{ cmd.nombre }}</td>
+            <td>{{ cmd.descripcion }}</td>
+            <td>{{ cmd.sistema }}</td>
+            <td>
+                <a href="{{ url_for('main.edit', id=cmd.id) }}">Editar</a>
+                <form method="post" action="{{ url_for('main.delete', id=cmd.id) }}" style="display:inline;">
+                    <button type="submit">Eliminar</button>
+                </form>
+            </td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>{{ 'Editar' if form.nombre.data else 'Agregar' }} Comando</h2>
+<form method="post">
+    {{ form.hidden_tag() }}
+    {{ form.nombre.label }} {{ form.nombre(size=40) }}<br>
+    {{ form.descripcion.label }} {{ form.descripcion(size=60) }}<br>
+    {{ form.sistema.label }} {{ form.sistema(size=30) }}<br>
+    {{ form.submit() }}
+</form>
+<a href="{{ url_for('main.index') }}">Volver</a>
+{% endblock %}
+
