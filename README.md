@@ -73,7 +73,7 @@ La aplicación estará disponible en `http://localhost:5000`.
 1.  Clona el repositorio:
     ```bash
     git clone https://github.com/JoelGiannini/tp_final_tegnologias_web.git
-    cd tp_final_tegnologias_web
+    cd tp_final_tegnologias_web/TP_FINAL_TEGNOLOGIAS_WEB/comandos_app/
     ```
 2.  Crea un entorno virtual e instala las dependencias:
     ```bash
