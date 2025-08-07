@@ -55,7 +55,7 @@ Este método es el más sencillo, ya que el `Dockerfile` **se encarga automátic
 1.  Clona el repositorio:
     ```bash
     git clone https://github.com/JoelGiannini/tp_final_tegnologias_web.git
-    cd tp_final_tegnologias_web
+    cd tp_final_tegnologias_web/TP_FINAL_TEGNOLOGIAS_WEB/comandos_app/
     ```
 2.  Construye la imagen de Docker:
     ```bash
