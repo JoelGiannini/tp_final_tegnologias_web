@@ -54,8 +54,8 @@ Este método es el más sencillo, ya que el `Dockerfile` **se encarga automátic
 
 1.  Clona el repositorio:
     ```bash
-    git clone [https://github.com/tu-usuario/tu-repositorio.git](https://github.com/tu-usuario/tu-repositorio.git)
-    cd tu-repositorio
+    git clone https://github.com/JoelGiannini/tp_final_tegnologias_web.git
+    cd tp_final_tegnologias_web
     ```
 2.  Construye la imagen de Docker:
     ```bash
@@ -73,7 +73,7 @@ La aplicación estará disponible en `http://localhost:5000`.
 1.  Clona el repositorio:
     ```bash
     git clone https://github.com/JoelGiannini/tp_final_tegnologias_web.git
-    cd tu-repositorio
+    cd tp_final_tegnologias_web
     ```
 2.  Crea un entorno virtual e instala las dependencias:
     ```bash
