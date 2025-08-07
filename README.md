@@ -100,7 +100,7 @@ La aplicación estará disponible en `http://127.0.0.1:5000`.
 
 ## 🤝 Contribuciones
 
-Las contribuciones son bienvenidas. Siéntete libre de abrir un "pull request" con tus mejoras.
+Las contribuciones son bienvenidas. Sentite libre de abrir un "pull request" y mejorar el codigo.
 
 ## 📝 Licencia
 
