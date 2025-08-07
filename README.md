@@ -72,7 +72,7 @@ La aplicación estará disponible en `http://localhost:5000`.
 
 1.  Clona el repositorio:
     ```bash
-    git clone [https://github.com/tu-usuario/tu-repositorio.git](https://github.com/tu-usuario/tu-repositorio.git)
+    git clone https://github.com/JoelGiannini/tp_final_tegnologias_web.git
     cd tu-repositorio
     ```
 2.  Crea un entorno virtual e instala las dependencias:
